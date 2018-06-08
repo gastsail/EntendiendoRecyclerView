@@ -20,6 +20,6 @@ Un simple proyecto explicando paso a paso como crear un RecyclerView, como pobla
 
 Este proyecto se va a seguir actualizando para lograr entender al maximo RecyclerView y su Adaptador, añadiendo en cada commit una funcionalidad nueva.
 
-#### Version
+## Version
 
 Actualmente version v1.00
