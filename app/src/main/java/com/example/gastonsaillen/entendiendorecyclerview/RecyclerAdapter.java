@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class GreenAdapter extends RecyclerView.Adapter<GreenAdapter.NumberViewHolder> {
+public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.NumberViewHolder> {
 
 
     /** Declaramos la cantidad de vistas que vamos a tener */
@@ -18,7 +18,7 @@ public class GreenAdapter extends RecyclerView.Adapter<GreenAdapter.NumberViewHo
     final private ListItemClickListener mOnClickListener;
 
     /**Vamos a utilizar este constructor para pasar un entero de la cantidad de vistas que queremos y asignarselo a mNumberItems*/
-    public GreenAdapter(int numberOfItems,ListItemClickListener listener){
+    public RecyclerAdapter(int numberOfItems, ListItemClickListener listener){
     //Poblamos la cantidad de vistas que queremos mostrar
         mNumberItems = numberOfItems;
      //Le decimos al adaptador que item clicamos
