@@ -20,6 +20,15 @@ Un simple proyecto explicando paso a paso como crear un RecyclerView, como pobla
 
 Este proyecto se va a seguir actualizando para lograr entender al maximo RecyclerView y su Adaptador, añadiendo en cada commit una funcionalidad nueva.
 
+## Como utilizarlo
+
+- Se debe importar la ultima version de RecyclerView en nuestro BuildGradle(Module App)
+- Creamos RecyclerView en nuestra Layout
+- Creamos el listItem ( donde pondremos que elementos mostrar dentro de cada vista) y nuestro ViewHolder
+- Utilizamos onBindViewHolder para poblar de informacion nuestras vistas dentro del RecyclerView
+- Añadimos y configuramos el Adaptador de nuestro RecyclerView
+- Añadimos un LayoutManager para conectar todo
+
 ## Version
 
 Actualmente version v1.00
